@@ -1,5 +1,5 @@
 # EntityFrameworkCoreDatabaseFirst
-TOOLS - Who to use EntityFrameworkCore Database First
+TOOLS - How to use EntityFrameworkCore Database First
 
 ```
 install-package Microsoft.EntityFrameworkCore
