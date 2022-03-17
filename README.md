@@ -23,5 +23,5 @@ OR
 
 
 ```
-Scaffold-DbContext -Provider Microsoft.EntityFrameworkCore.SqlServer -Connection "Data Source=(localdb)\ProjectsV13;Initial Catalog=StoreDB;"
+Scaffold-DbContext "server=xxx;database=xxx;User ID=xxx;password=xxx;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -ContextDir Context -Context dbContext
 ```
