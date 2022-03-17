@@ -17,3 +17,9 @@ dotnet tool install --global EntityFrameworkCore.Generator
 efg initialize -c "server=SERVER;database=DB;User ID=Username;password=xxxxxx;"
 efg generate -c "server=SERVER;database=DB;User ID=Username;password=xxxxxx;" --validator --mapper --models
 ```
+
+
+OR
+
+
+Scaffold-DbContext -Provider Microsoft.EntityFrameworkCore.SqlServer -Connection "Data Source=(localdb)\ProjectsV13;Initial Catalog=StoreDB;"
