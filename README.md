@@ -1,4 +1,4 @@
-# EntityFrameworkCoreDatabaseFirst
+# Entity Framework Core Database First
 TOOLS - How to use EntityFrameworkCore Database First
 
 ```
